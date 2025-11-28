@@ -1,0 +1,15 @@
+# #!/bin/sh
+
+# # Get the current branch name
+# CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
+
+# # Define the protected branch
+# PROTECTED_BRANCH="main"
+
+# # Only enforce coverage checks on the main branch
+# if [ "$CURRENT_BRANCH" = "$PROTECTED_BRANCH" ]; then
+#   echo "🔍 Running coverage checks on '$PROTECTED_BRANCH' branch..."
+#   npm run check-tests
+# else
+#   echo "🚀 Skipping coverage checks on branch '$CURRENT_BRANCH'."
+# fi
